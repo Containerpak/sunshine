@@ -4,6 +4,6 @@ ADD --checksum=sha256:c7e5452f8cf2609dffbdeda63ca3be7ee45f91505dc496844d65924817
 COPY icon.png /usr/share/icons/hicolor/128x128/apps/sunshine.png
 
 RUN apt-get update && \
-    apt-get install -y --no-install-recommends libayatana-appindicator3-1 libcap2 libdrm2 libminiupnpc19 libopus0 libpulse0 && \
+    apt-get install -y --no-install-recommends libayatana-appindicator3-1 libcap2 libdrm2 libminiupnpc21 libopus0 libpulse0 && \
     dpkg-deb -x /tmp/source / && \
     cpak-clean-junk
