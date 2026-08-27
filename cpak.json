@@ -4,7 +4,7 @@
   "name": "Sunshine",
   "description": "Stream games and desktops to Moonlight clients.",
   "version": "2026.516.143833",
-  "image": "ghcr.io/containerpak/sunshine@sha256:fcf22c1dbed0c3aadf5910b4690efe78c48c984a383b5519b396d98ba22627bb",
+  "image": "ghcr.io/containerpak/sunshine@sha256:3aae0025298c34262faa9c5d853a5df46200924fbc429b8bb0c44feb1198a324",
   "binaries": [
     "/usr/bin/sunshine"
   ],
